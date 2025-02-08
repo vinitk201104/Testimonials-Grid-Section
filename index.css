@@ -1,0 +1,249 @@
+@media (max-width: 1450px) and (min-width: 1024px){
+    body{
+        margin: 0;
+        padding: 150px;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        background-color: hsl(210, 46%, 95%);
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: 3.35fr 1fr;
+        column-gap: 30px;
+    }
+    
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    .upper-half{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 30px;
+    }
+    
+    .lower-half{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 30px;
+    }
+    
+    .daniel-clifford, .jonathan-walters, .jeanette-harmon, .patrick-abrams, .kira-whittle{
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .daniel-clifford{
+        background-color: hsl(263, 55%, 52%);
+        background-image: url('./images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: 80% top;
+    }
+    .jonathan-walters{
+        background-color: hsl(217, 19%, 35%);
+    }
+    .jeanette-harmon{
+        background-color: hsl(0, 0%, 100%);
+    }
+    .patrick-abrams{
+        background-color: hsl(219, 29%, 14%);
+    }
+    .kira-whittle{
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+    
+    .profile{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    
+    .profile-img{
+        width: 30px;
+    }
+    
+    .pfp{
+        width: 30px;
+        border: solid hsl(263, 100%, 85%);
+        border-radius: 100%;
+    }
+    
+    .name-profession p{
+        margin: 0;
+    }
+    
+    .name{
+        font-weight: 500;
+        font-size: 14px;
+        color: hsl(210, 46%, 95%);
+    }
+    
+    .profession{
+        color: hsl(0, 0%, 81%);
+    }
+    
+    .summary{
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(210, 46%, 95%);
+    }
+    
+    .brief{
+        font-size: 14;
+        color: hsl(0, 0%, 81%);
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    
+    .jeanette-harmon .name, .kira-whittle .name{
+        font-weight: 500;
+        font-size: 14px;
+        color: hsl(0, 0%, 39%);
+    }
+    
+    .jeanette-harmon .profession, .kira-whittle .profession{
+        color: hsl(0, 0%, 39%);
+    }
+    
+    .jeanette-harmon .summary, .kira-whittle .summary{
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(0, 0%, 39%);
+    }
+    
+    .jeanette-harmon .brief, .kira-whittle .brief{
+        font-size: 14;
+        color: hsl(0, 0%, 39%);
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 770px) and (min-width: 375px){
+    body{
+        margin: 0;
+        padding: 90px 30px;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        background-color: hsl(210, 46%, 95%);
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    .upper-half{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    .lower-half{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    .daniel-clifford, .jonathan-walters, .jeanette-harmon, .patrick-abrams, .kira-whittle{
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .daniel-clifford{
+        background-color: hsl(263, 55%, 52%);
+        background-image: url('./images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: 80% top;
+    }
+    .jonathan-walters{
+        background-color: hsl(217, 19%, 35%);
+    }
+    .jeanette-harmon{
+        background-color: hsl(0, 0%, 100%);
+    }
+    .patrick-abrams{
+        background-color: hsl(219, 29%, 14%);
+    }
+    .kira-whittle{
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+    
+    .profile{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    
+    .profile-img{
+        width: 30px;
+    }
+    
+    .pfp{
+        width: 30px;
+        border: solid hsl(263, 100%, 85%);
+        border-radius: 100%;
+    }
+    
+    .name-profession p{
+        margin: 0;
+    }
+    
+    .name{
+        font-weight: 500;
+        font-size: 14px;
+        color: hsl(210, 46%, 95%);
+    }
+    
+    .profession{
+        color: hsl(0, 0%, 81%);
+    }
+    
+    .summary{
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(210, 46%, 95%);
+    }
+    
+    .brief{
+        font-size: 14;
+        color: hsl(0, 0%, 81%);
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    
+    .jeanette-harmon .name, .kira-whittle .name{
+        font-weight: 500;
+        font-size: 14px;
+        color: hsl(0, 0%, 39%);
+    }
+    
+    .jeanette-harmon .profession, .kira-whittle .profession{
+        color: hsl(0, 0%, 39%);
+    }
+    
+    .jeanette-harmon .summary, .kira-whittle .summary{
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(0, 0%, 39%);
+    }
+    
+    .jeanette-harmon .brief, .kira-whittle .brief{
+        font-size: 14;
+        color: hsl(0, 0%, 39%);
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+}
